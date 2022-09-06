@@ -15,7 +15,7 @@ tache.appendChild(P);
 tache.appendChild(divImg);
 grandeDiv.appendChild(tache);
 tache.style.margin = '10px';
-tache.style.backgroundColor ='lightgrey'
+tache.style.backgroundColor ='transparent'
 tache.style.fontSize='30px';
 tache.style.color="#ff69b4"
 grandeDiv.style.fontFamily="'Courier New', Courier, monospace";
@@ -33,8 +33,10 @@ tache.style.display = 'flex';
 divImg.style.display = 'flex';
 divImg.style.justifyContent = 'space-around';
 divImg.style.alignItems = 'center';
+divImg.style.backgroundColor='transparent'
 tache.style.justifyContent = 'center';
 tache.style.alignItems = 'center';
+grandeDiv.style.backgroundColor='transparent'
 divImg.style.flex = '2';
 P.style.flex = '10';
 let i = 0;

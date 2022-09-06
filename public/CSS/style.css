@@ -1,7 +1,13 @@
 
+body{
+    background-image: url('/public/image/fleur_noir.jpg');
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+    
+}
 .Titreprincipale{
-background-color:  rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+background-color:  transparent !important;
 height: 80px;
 text-align: center;
 justify-content: center;
@@ -12,29 +18,28 @@ border-radius: 5px;
 font-size: 50px;
 }
 .AjouterUneTâche{
-    background-color:  rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-color:  transparent !important;
     border-radius: 5px;
     color: white ;
 }
 .container{
     border-radius: 8px ;
-    border-top: solid 5px  rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-top: solid 5px white;
     height: 80px;
 }
 .AjouterUneTâche{
     font-size: 30px;
     color :white ;
+
 }
 .ajout{
     height: 25px;
     border: solid 1px;
     border-radius: 5px;
+   
 }
 .ajouter{
-    background-color:  rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-color:  transparent !important;
     border-radius: 50px  white;
     border: solid 0.1px !important;
     color:white;
@@ -43,24 +48,27 @@ font-size: 50px;
 }
 
 button{
-    background-color:  rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    border-radius: 10px  #ff69b4 !important;
+    background-color:  transparent !important;
+    border-radius: 10px  white;
     border: solid 0.1px !important;
     position:relative; 
     display:inline-block; 
     height: 30px;
     border-radius: 4px;
     color: white;
+ 
 }
 .bouton{
-    background-color: rgb(238, 237, 237);
+    background-color: transparent !important;
     height: 50px;
     width: 1702px;
+    
 }
 
 img{
     height: 20px;
+    display: flex;
+    flex-wrap: wrap;
     display: flex;
 
 }
@@ -72,7 +80,7 @@ img{
 }
 
 .grandeDiv{
-    background-color: white
+    background-color: white;
 }
 
 .divbouton{
@@ -81,7 +89,7 @@ img{
 }
 
 .afaire{
-    background-color: rgb(255, 243, 243) !important ;
+    background-color: transparent!important ;
 }
 
 .terminer{
